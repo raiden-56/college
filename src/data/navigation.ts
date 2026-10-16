@@ -19,6 +19,7 @@ export const mainNav: NavItem[] = [
       { label: 'Departments', to: '/departments', description: 'Explore our academic departments' },
       { label: 'Faculty Directory', to: '/faculty', description: 'Meet our teachers and researchers' },
       { label: 'Research & Innovation', to: '/research', description: 'Centres, publications and incubation' },
+      { label: 'Placements & Careers', to: '/placements', description: 'Training, recruiters and placement records' },
     ],
   },
   {
@@ -31,7 +32,6 @@ export const mainNav: NavItem[] = [
       { label: 'Apply / Enquire', to: '/admissions/apply', description: 'Start your application enquiry' },
     ],
   },
-  { label: 'Placements', to: '/placements' },
   {
     label: 'Campus Life',
     to: '/campus',

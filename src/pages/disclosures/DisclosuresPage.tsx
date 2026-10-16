@@ -36,7 +36,7 @@ const committees: Committee[] = [
     name: 'Internal Complaints Committee (ICC)',
     icon: <ShieldCheck className="h-6 w-6" aria-hidden />,
     purpose: 'Prevention and redressal of sexual harassment of women at the workplace and on campus; complaints are handled confidentially.',
-    contacts: [{ label: 'icc@crestwood.edu.in', href: 'mailto:icc@crestwood.edu.in', icon: <Mail className="h-4 w-4" aria-hidden /> }],
+    contacts: [{ label: 'icc@bgvsacc.org', href: 'mailto:icc@bgvsacc.org', icon: <Mail className="h-4 w-4" aria-hidden /> }],
     docQuery: 'Internal Complaints',
   },
   {
@@ -63,7 +63,7 @@ const committees: Committee[] = [
     name: 'SC/ST Cell & Equal Opportunity Cell',
     icon: <Users className="h-6 w-6" aria-hidden />,
     purpose: 'Safeguards the interests of students and staff from SC/ST, OBC and other under-represented groups, and supports equal access.',
-    contacts: [{ label: 'eoc@crestwood.edu.in', href: 'mailto:eoc@crestwood.edu.in', icon: <Mail className="h-4 w-4" aria-hidden /> }],
+    contacts: [{ label: 'eoc@bgvsacc.org', href: 'mailto:eoc@bgvsacc.org', icon: <Mail className="h-4 w-4" aria-hidden /> }],
     docQuery: 'SC/ST',
   },
 ];

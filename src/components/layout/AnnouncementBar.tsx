@@ -61,6 +61,13 @@ export function AnnouncementBar() {
             {siteConfig.contacts.admissions.phone}
           </a>
         </nav>
+        <Link
+          to="/admissions/apply"
+          className="hidden shrink-0 items-center gap-1.5 rounded-full bg-gold-400 px-3.5 py-1 text-xs font-bold text-navy-950 transition hover:bg-gold-300 sm:inline-flex"
+        >
+          Apply Now
+          <ArrowRight className="h-3.5 w-3.5" aria-hidden />
+        </Link>
       </div>
     </div>
   );

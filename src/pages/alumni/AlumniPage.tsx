@@ -110,11 +110,11 @@ export default function AlumniPage() {
     <>
       <Seo
         title="Alumni"
-        description="Crestwood College alumni network: success stories, opt-in alumni directory, reunions, mentorship, the alumni association, giving and registration."
+        description="Bapuji College Karwar alumni network: success stories, opt-in alumni directory, reunions, mentorship, the alumni association, giving and registration."
       />
       <PageHero
         eyebrow="Alumni"
-        title="Once Crestwood, always Crestwood"
+        title="Once Bapujian, always Bapujian"
         crumbLabel="Alumni"
         description="Our graduates lead teams, build companies, serve the public and push research forward. Stay connected, mentor the next generation and come home for reunions."
         image={images.graduation}
@@ -144,7 +144,7 @@ export default function AlumniPage() {
 
       {/* Success stories */}
       <Section tone="white" id="stories" labelledBy="stories-heading">
-        <SectionHeading id="stories-heading" eyebrow="Success stories" title="Where Crestwood takes you" description="A few of the many paths our graduates have taken." />
+        <SectionHeading id="stories-heading" eyebrow="Success stories" title="Where Bapuji College takes you" description="A few of the many paths our graduates have taken." />
         {featured && (
           <Reveal>
             <article className="grid overflow-hidden rounded-3xl bg-navy-950 text-white shadow-lift lg:grid-cols-2" aria-labelledby={`story-${featured.id}`}>
@@ -350,7 +350,7 @@ export default function AlumniPage() {
 
       {/* Association */}
       <Section tone="white" id="association" labelledBy="association-heading">
-        <SectionHeading id="association-heading" eyebrow="Alumni association" title="The Crestwood Alumni Association" />
+        <SectionHeading id="association-heading" eyebrow="Alumni association" title="The Bapuji College Alumni Association" />
         <div className="grid gap-6 lg:grid-cols-3">
           <Reveal className="card p-6 sm:p-7 lg:col-span-2">
             <div className="prose-college">

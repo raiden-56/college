@@ -50,7 +50,7 @@ export default function VirtualTourPage() {
     <>
       <Seo
         title="Virtual Campus Tour"
-        description="Take a virtual tour of Crestwood College — main gate, library, labs, innovation lab, auditorium, hostels and sports complex — then book an in-person visit."
+        description="Take a virtual tour of Bapuji College Karwar — main gate, library, labs, innovation lab, auditorium, hostels and sports complex — then book an in-person visit."
       />
       <PageHero
         eyebrow="Campus"

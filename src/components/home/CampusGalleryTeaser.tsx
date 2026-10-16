@@ -1,7 +1,7 @@
 import { CalendarDays, Compass, Images } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import type { ImageAsset } from '@/types';
-import { images } from '@/data/images';
+import { collegePhotos } from '@/data/images';
 import { ParallaxLayer } from '@/components/motion/Parallax';
 import { Reveal } from '@/components/motion/Reveal';
 import { ButtonLink } from '@/components/ui/Button';
@@ -10,9 +10,9 @@ import { SmartImage } from '@/components/ui/SmartImage';
 import { cn } from '@/utils/cn';
 
 const columns: { offset: number; className?: string; items: { image: ImageAsset; aspect: string }[] }[] = [
-  { offset: 30, items: [{ image: images.festival, aspect: 'aspect-[3/4]' }, { image: images.libraryReading, aspect: 'aspect-square' }] },
-  { offset: -40, className: 'pt-10', items: [{ image: images.robotics, aspect: 'aspect-square' }, { image: images.sportsTrack, aspect: 'aspect-[3/4]' }] },
-  { offset: 55, className: 'hidden sm:block', items: [{ image: images.concert, aspect: 'aspect-[3/4]' }, { image: images.friends, aspect: 'aspect-square' }] },
+  { offset: 30, items: [{ image: collegePhotos.mehendi, aspect: 'aspect-[3/4]' }, { image: collegePhotos.building, aspect: 'aspect-square' }] },
+  { offset: -40, className: 'pt-10', items: [{ image: collegePhotos.certificates, aspect: 'aspect-square' }, { image: collegePhotos.treePlanting, aspect: 'aspect-[3/4]' }] },
+  { offset: 55, className: 'hidden sm:block', items: [{ image: collegePhotos.function, aspect: 'aspect-[3/4]' }, { image: collegePhotos.felicitation, aspect: 'aspect-square' }] },
 ];
 
 /** Dark full-bleed band: photo mosaic in parallax columns with links to the gallery and the virtual tour. */

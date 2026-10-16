@@ -49,8 +49,10 @@ export function HomeHero() {
           <SmartImage image={images.heroCampus} decorative priority className="h-full w-full object-cover" />
         </motion.div>
       </motion.div>
-      <div className="absolute inset-0 -z-20 bg-hero-fade" aria-hidden />
-      <div className="absolute inset-0 -z-20 bg-gradient-to-r from-navy-950/95 via-navy-950/60 to-navy-950/10" aria-hidden />
+      {/* Lighter than the shared hero-fade so the college building stays visible; the left-hand
+          gradient keeps the headline readable. */}
+      <div className="absolute inset-0 -z-20 bg-gradient-to-b from-navy-950/40 via-navy-950/35 to-navy-950/85" aria-hidden />
+      <div className="absolute inset-0 -z-20 bg-gradient-to-r from-navy-950/90 via-navy-950/50 to-transparent" aria-hidden />
       <div
         className="absolute inset-0 -z-10 bg-grid-faint bg-[size:64px_64px] [mask-image:radial-gradient(ellipse_at_top_left,black,transparent_65%)]"
         aria-hidden
@@ -64,7 +66,7 @@ export function HomeHero() {
         <div className="max-w-3xl">
           <motion.p className="eyebrow eyebrow-light" {...rise(0.1)}>
             <span className="h-px w-8 bg-gold-300" aria-hidden />
-            {siteConfig.shortName} · Est. {siteConfig.established} · {siteConfig.address.city}
+            {siteConfig.shortName} · Est. {siteConfig.established}
           </motion.p>
           <motion.h1 id="home-hero-heading" className="mt-6 text-balance text-[2.6rem] font-extrabold leading-[1.04] text-white sm:text-6xl lg:text-7xl" {...rise(0.2)}>
             <span className="sr-only">{siteConfig.name}: </span>
@@ -73,7 +75,7 @@ export function HomeHero() {
           </motion.h1>
           <motion.p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-navy-100 sm:text-xl" {...rise(0.35)}>
             Undergraduate, postgraduate and doctoral programs across engineering, sciences, management, law, humanities and education — taught by
-            mentors who know your name, on a green campus in {siteConfig.address.city}’s Electronic City.
+            mentors who know your name, on a green campus at Sadashivgad, {siteConfig.address.city}, beside the Kali river.
           </motion.p>
 
           <motion.div className="mt-10 flex flex-wrap items-center gap-3 sm:gap-4" {...rise(0.5)}>

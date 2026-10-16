@@ -108,12 +108,12 @@ export default function TestimonialsPage() {
     <>
       <Seo
         title="Testimonials"
-        description="Hear from Crestwood College students, alumni and parents. Every testimonial is published with recorded consent after moderation."
+        description="Hear from Bapuji College Karwar students, alumni and parents. Every testimonial is published with recorded consent after moderation."
       />
       <PageHero
         eyebrow="Community voices"
         title="Testimonials"
-        description="Students, alumni and parents share what Crestwood means to them — in their own words, published with their consent."
+        description="Students, alumni and parents share what Bapuji College means to them — in their own words, published with their consent."
         image={images.friends}
         actions={
           <ButtonLink to="/feedback" variant="gold" icon={<MessageSquarePlus className="h-4 w-4" aria-hidden />}>

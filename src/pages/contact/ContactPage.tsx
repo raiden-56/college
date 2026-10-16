@@ -46,13 +46,13 @@ const emailLines = [
 
 const directions: { id: string; label: string; icon: ReactNode; points: string[] }[] = [
   {
-    id: 'metro',
-    label: 'By metro',
+    id: 'train',
+    label: 'By train',
     icon: <TrainFront className="h-4 w-4" aria-hidden />,
     points: [
-      'Take the metro to the station nearest Electronic City (station name to be configured).',
-      'Feeder buses, autos and app cabs run from the station to the campus gate.',
-      'Allow 15–20 minutes for the last leg during peak hours.',
+      'Karwar railway station on the Konkan Railway is the nearest station.',
+      'Autos and taxis run from the station to the campus at Sadashivgad, across the Kali river bridge.',
+      'Allow extra time for the last leg during peak hours.',
     ],
   },
   {
@@ -60,7 +60,7 @@ const directions: { id: string; label: string; icon: ReactNode; points: string[]
     label: 'By bus',
     icon: <Bus className="h-4 w-4" aria-hidden />,
     points: [
-      'City buses towards Electronic City stop near the campus (route numbers to be configured).',
+      'KSRTC and city buses towards Sadashivgad stop on NH 66 near the campus.',
       'College buses run on fixed routes for enrolled students — see the transport office for routes and passes.',
       'The bus stop is a short walk from Gate 1.',
     ],
@@ -70,8 +70,8 @@ const directions: { id: string; label: string; icon: ReactNode; points: string[]
     label: 'By car',
     icon: <Car className="h-4 w-4" aria-hidden />,
     points: [
-      'Follow Hosur Road (or the elevated expressway) to Electronic City Phase II.',
-      'Use Gate 1 on Knowledge Park Road; visitor parking is next to the Administration Block.',
+      'Follow NH 66 (Karwar–Goa road) to Sadashivgad, just north of the Kali river bridge.',
+      'The campus entrance is on NH 66; visitor parking is inside the campus.',
       'Carry photo ID — visitors register at the security desk.',
     ],
   },
@@ -80,7 +80,7 @@ const directions: { id: string; label: string; icon: ReactNode; points: string[]
     label: 'From the airport',
     icon: <Plane className="h-4 w-4" aria-hidden />,
     points: [
-      'Kempegowda International Airport is on the far side of the city; allow 1.5–2.5 hours by road depending on traffic.',
+      'The nearest airports are in Goa (Dabolim and Mopa); allow about 2–3 hours by road along NH 66.',
       'Airport shuttle buses and app cabs are available outside arrivals.',
       'Tell us your arrival time when booking a campus visit and we can share the best route.',
     ],
@@ -129,7 +129,7 @@ function InfoCard({ icon, title, children }: { icon: ReactNode; title: string; c
 }
 
 export default function ContactPage() {
-  const [route, setRoute] = useState('metro');
+  const [route, setRoute] = useState('train');
   const [dirQuery, setDirQuery] = useState('');
   const directory = useMemo(
     () => departments.filter((d) => matchesQuery(dirQuery, d.name, d.shortName, d.contact.location, d.contact.email, d.tagline)),

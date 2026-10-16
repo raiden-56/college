@@ -56,7 +56,7 @@ export default function FeedbackPage() {
     <>
       <Seo
         title="Feedback & Grievances"
-        description="Share private feedback with Crestwood College or file a confidential grievance routed to the right committee. Response timelines and helplines included."
+        description="Share private feedback with Bapuji College Karwar or file a confidential grievance routed to the right committee. Response timelines and helplines included."
       />
       <PageHero
         eyebrow="We’re listening"

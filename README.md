@@ -1,9 +1,9 @@
-# Crestwood College — Website
+# Bapuji College Karwar — Website
 
-A complete, production-grade college website built with **React 19 + Vite + TypeScript**, ready for institutional
-branding and verified content. “Crestwood College of Arts, Science & Technology” is a **fictional placeholder
-institution**: every person, figure, credential and document in `src/data` is demo content and is labelled as such
-in the UI while `VITE_DEMO_MODE=true`.
+Website for **Bapuji College Karwar** (Bapuji Grameena Vikasa Samiti’s Arts and Commerce College, Sadashivgad,
+Karwar), built with **React 19 + Vite + TypeScript**. The college name, address, contact details, map, campus
+photograph and gallery are real; the remaining people, figures, credentials and documents in `src/data` are still
+template demo content and are labelled as such in the UI while `VITE_DEMO_MODE=true`.
 
 ---
 

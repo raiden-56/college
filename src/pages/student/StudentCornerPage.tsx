@@ -115,7 +115,7 @@ export default function StudentCornerPage() {
     <>
       <Seo
         title="Student Corner"
-        description="Academic calendar, exam schedules, results, timetables, notices, handbook, clubs, counselling, grievance redressal and anti-ragging help for Crestwood students."
+        description="Academic calendar, exam schedules, results, timetables, notices, handbook, clubs, counselling, grievance redressal and anti-ragging help for Bapuji College students."
       />
       <PageHero
         eyebrow="Student Corner"

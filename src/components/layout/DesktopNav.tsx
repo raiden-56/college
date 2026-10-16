@@ -50,7 +50,7 @@ export function DesktopNav({ onDark }: DesktopNavProps) {
   };
 
   const linkBase = cn(
-    'relative inline-flex items-center gap-1 rounded-full px-3 py-2 text-[0.9375rem] font-semibold transition-colors',
+    'relative inline-flex items-center gap-1 whitespace-nowrap rounded-full px-2.5 py-2 text-[0.9375rem] font-semibold transition-colors',
     onDark ? 'text-white/90 hover:bg-white/10 hover:text-white' : 'text-navy-900 hover:bg-navy-50 hover:text-royal-700',
   );
 

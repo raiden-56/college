@@ -45,7 +45,7 @@ export default function AccessibilityPage() {
     <>
       <Seo
         title="Accessibility Statement"
-        description="Crestwood College’s accessibility statement: our WCAG 2.2 AA target, the features built into this website, known limitations and how to give feedback."
+        description="Bapuji College Karwar’s accessibility statement: our WCAG 2.2 AA target, the features built into this website, known limitations and how to give feedback."
       />
       <PageHero
         eyebrow="Legal"

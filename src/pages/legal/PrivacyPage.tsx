@@ -96,7 +96,7 @@ export default function PrivacyPage() {
     <>
       <Seo
         title="Privacy Policy"
-        description="How Crestwood College collects, uses, stores and protects personal information submitted through this website, including cookies and your choices."
+        description="How Bapuji College Karwar collects, uses, stores and protects personal information submitted through this website, including cookies and your choices."
       />
       <PageHero
         eyebrow="Legal"
@@ -226,7 +226,7 @@ export default function PrivacyPage() {
               </p>
               <ul>
                 <li>
-                  <strong>Essential:</strong> your cookie choices and the time you made them (key <code>crestwood-cookie-consent-v1</code>), and conveniences
+                  <strong>Essential:</strong> your cookie choices and the time you made them (key <code>bapuji-cookie-consent-v1</code>), and conveniences
                   you set yourself, such as a ticked document checklist. These stay on your device.
                 </li>
                 <li>

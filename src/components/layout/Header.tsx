@@ -1,10 +1,9 @@
 import { motion } from 'framer-motion';
-import { Menu, Search } from 'lucide-react';
+import { GraduationCap, Menu, Search } from 'lucide-react';
 import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useDisclosure } from '@/hooks/useDisclosure';
 import { useScrolled } from '@/hooks/useScrolled';
-import { ButtonLink } from '@/components/ui/Button';
 import { cn } from '@/utils/cn';
 import { AnnouncementBar } from './AnnouncementBar';
 import { DesktopNav } from './DesktopNav';
@@ -53,10 +52,11 @@ export function Header() {
           <AnnouncementBar />
         </motion.div>
         <div className={cn('transition-all duration-300', scrolled ? 'border-b border-navy-100/80 bg-white/90 shadow-[0_8px_30px_-12px_rgba(15,29,64,0.18)] backdrop-blur-xl' : 'on-dark bg-gradient-to-b from-navy-950/60 to-transparent')}>
-          <div className={cn('container flex items-center justify-between gap-4 transition-all duration-300', scrolled ? 'h-[4.25rem]' : 'h-20')}>
-            <Logo light={onDark} />
+          {/* Three columns on desktop (logo | menu | actions) so the menu sits in the true centre. */}
+          <div className={cn('container flex items-center justify-between gap-2 sm:gap-4 transition-all duration-300 xl:grid xl:grid-cols-[1fr_auto_1fr]', scrolled ? 'h-[4.25rem]' : 'h-20')}>
+            <Logo light={onDark} className="justify-self-start" />
             <DesktopNav onDark={onDark} />
-            <div className="flex items-center gap-2">
+            <div className="flex shrink-0 items-center gap-1 justify-self-end sm:gap-2">
               <button
                 type="button"
                 onClick={search.open}
@@ -66,9 +66,17 @@ export function Header() {
               >
                 <Search className="h-5 w-5" aria-hidden />
               </button>
-              <ButtonLink to="/admissions/apply" variant="gold" size="md" className="hidden sm:inline-flex">
-                Apply Now
-              </ButtonLink>
+              {/* Desktop only: the full "Apply Now" button lives in the top bar and this shortcut
+                  stays after the top bar collapses on scroll. Below xl, Apply Now is in the menu drawer
+                  so the menu button always has room. */}
+              <Link
+                to="/admissions/apply"
+                className="hidden h-11 w-11 place-items-center rounded-full bg-gold-400 xl:grid text-navy-950 shadow-sm transition hover:bg-gold-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-300"
+                aria-label="Apply now"
+                title="Apply now"
+              >
+                <GraduationCap className="h-5 w-5" aria-hidden />
+              </Link>
               <button
                 type="button"
                 onClick={mobile.open}

@@ -84,7 +84,7 @@ export const counselling = {
     'Free, confidential support from qualified counsellors for stress, anxiety, relationships, academic pressure or anything else on your mind. Sessions are private and are not shared with faculty or parents without your consent, except where safety requires it.',
   location: 'Student Services Building, Room 104',
   hours: 'Mon–Fri, 9:30 AM – 5:00 PM (appointments and walk-ins)',
-  email: 'wellness@crestwood.edu.in',
+  email: 'wellness@bgvsacc.org',
   phone: '+91 80 4000 1700',
   emergencyNote: 'In an emergency, contact campus security or call 112. For mental health support at any hour, the national Tele-MANAS helpline is 14416.',
 };

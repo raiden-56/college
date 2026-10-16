@@ -23,6 +23,8 @@ export function Seo({ title, description, image = images.heroCampus.src, type = 
   const fullTitle = pathname === '/' ? `${siteConfig.name} | ${siteConfig.tagline}` : `${title} | ${siteConfig.shortName}`;
   const canonical = `${siteConfig.url}${pathname === '/' ? '' : pathname}`;
   const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+  // Social cards need an absolute URL; local images (e.g. /images/...) are served from the site.
+  const absoluteImage = image.startsWith('/') ? `${siteConfig.url}${image}` : image;
 
   return (
     <>
@@ -35,12 +37,12 @@ export function Seo({ title, description, image = images.heroCampus.src, type = 
       <meta property="og:description" content={description} />
       <meta property="og:type" content={type} />
       <meta property="og:url" content={canonical} />
-      <meta property="og:image" content={image} />
+      <meta property="og:image" content={absoluteImage} />
       <meta property="og:locale" content="en_IN" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={image} />
+      <meta name="twitter:image" content={absoluteImage} />
       {ld.map((obj, i) => (
         <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(obj) }} />
       ))}

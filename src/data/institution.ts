@@ -62,18 +62,18 @@ export const principal = {
   designation: 'Principal',
   photo: portraits.m2,
   message: [
-    'Welcome to Crestwood College. For nearly four decades, we have believed that education is about more than degrees — it is about developing people who think clearly, act ethically and contribute to their communities.',
+    'Welcome to Bapuji College Karwar. For nearly four decades, we have believed that education is about more than degrees — it is about developing people who think clearly, act ethically and contribute to their communities.',
     'Our faculty combine teaching excellence with research and industry experience. Our campus offers the facilities students need to explore, build and lead. And our support services ensure that no student walks their journey alone.',
-    'I invite you to explore our programs, visit our campus and discover what makes the Crestwood community special.',
+    'I invite you to explore our programs, visit our campus and discover what makes the Bapuji College community special.',
   ],
 };
 
 export const chairman = {
   name: 'Mr. Venkatesh Prasad',
-  designation: 'Chairman, Crestwood Educational Trust',
+  designation: 'Chairman, Bapuji Grameena Vikasa Samiti',
   photo: portraits.m1,
   message: [
-    'Our founders established Crestwood with a simple promise: quality higher education that is accessible, values-driven and relevant to society.',
+    'Our founders established the college with a simple promise: quality higher education that is accessible, values-driven and relevant to society.',
     'As we grow, we remain committed to transparent governance, investment in people and infrastructure, and a campus where every student feels they belong.',
   ],
 };
@@ -81,7 +81,7 @@ export const chairman = {
 /** DEMO LEADERSHIP — fictional names. Replace with approved governance records. */
 export const leaders: Leader[] = [
   { name: chairman.name, designation: chairman.designation, photo: chairman.photo, role: 'management', bio: 'Leads the trust’s strategic direction and long-term investment in academic quality.' },
-  { name: 'Mrs. Kavitha Prasad', designation: 'Secretary, Crestwood Educational Trust', photo: portraits.f1, role: 'management', bio: 'Oversees institutional development, compliance and community partnerships.' },
+  { name: 'Mrs. Kavitha Prasad', designation: 'Secretary, Bapuji Grameena Vikasa Samiti', photo: portraits.f1, role: 'management', bio: 'Oversees institutional development, compliance and community partnerships.' },
   { name: principal.name, designation: principal.designation, photo: principal.photo, role: 'administration', bio: 'Academic head of the college, responsible for teaching, research and student welfare.' },
   { name: 'Dr. Nandini Bhat', designation: 'Vice Principal (Academics)', photo: portraits.f3, role: 'administration', bio: 'Coordinates curriculum, academic calendar and quality initiatives with the IQAC.' },
   { name: 'Dr. Harish Rao', designation: 'Dean, Research & Development', photo: portraits.m8, role: 'administration', bio: 'Leads research policy, grants and doctoral programs.' },

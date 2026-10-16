@@ -10,8 +10,27 @@ export const unsplash = (id: string, width = 1200, quality = 75) =>
 
 const img = (id: string, alt: string, width?: number): ImageAsset => ({ src: unsplash(id, width), alt });
 
+/**
+ * The college's own photographs. The building photo is served from /public; the event photos are
+ * the ones published on the college's official website (bgvsacc.org).
+ */
+const officialPhoto = (file: string, alt: string): ImageAsset => ({
+  src: `https://bgvsacc.org/wp-content/uploads/2017/12/${file}`,
+  alt,
+});
+
+export const collegePhotos = {
+  building: { src: '/images/college/campus-building.webp', alt: 'Main building of Bapuji College Karwar at Sadashivgad' },
+  certificates: officialPhoto('DSC03239-1.jpg', 'Students holding certificates on stage at a college programme'),
+  function: officialPhoto('DSC_0045.jpg', 'Guests on the dais at a function of B.G.V.S Arts and Commerce College'),
+  treePlanting: officialPhoto('IMG_20170422_104515.jpg', 'Staff and guests planting a sapling on campus'),
+  felicitation: officialPhoto('felecitation.jpg', 'Staff and guests at a felicitation programme'),
+  address: officialPhoto('DSC_0040.jpg', 'A guest addressing a college programme from the podium'),
+  mehendi: officialPhoto('Photo1118.jpg', 'Students taking part in a mehendi competition'),
+} satisfies Record<string, ImageAsset>;
+
 export const images = {
-  heroCampus: img('1562774053-701939374585', 'Main academic building of the campus at golden hour', 2000),
+  heroCampus: collegePhotos.building,
   campusAerial: img('1541339907198-e08756dedf3f', 'Students walking across the central campus lawn', 1800),
   graduation: img('1523050854058-8df90110c9f1', 'Graduates tossing their caps at convocation', 1600),
   lecture: img('1524178232363-1fb2b075b655', 'Faculty member teaching in a modern lecture hall'),

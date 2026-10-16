@@ -87,4 +87,4 @@ export const downloadIcs = (e: CollegeEvent) => {
 };
 
 /** Map search for the campus (venues inside campus are not individually geocoded). */
-export const campusMapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${siteConfig.name}, ${fullAddress}`)}`;
+export const campusMapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(siteConfig.mapsQuery)}`;

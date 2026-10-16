@@ -109,7 +109,7 @@ export default function AboutPage() {
               />
               <Reveal className="space-y-4 text-base leading-relaxed text-ink-soft sm:text-[1.0625rem]">
                 <p>
-                  {siteConfig.name} was founded in {siteConfig.established} by the Crestwood Educational Trust with a simple promise: quality
+                  {siteConfig.name} was founded in {siteConfig.established} by the Bapuji Grameena Vikasa Samiti with a simple promise: quality
                   higher education that is accessible, values-driven and relevant to society. The college opened with programs in science,
                   commerce and mechanical engineering.
                 </p>

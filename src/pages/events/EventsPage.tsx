@@ -106,7 +106,7 @@ export default function EventsPage() {
     <>
       <Seo
         title="Events"
-        description="Upcoming workshops, seminars, conferences, festivals, sports and admission events at Crestwood College — browse as a list or month calendar, or explore the archive."
+        description="Upcoming workshops, seminars, conferences, festivals, sports and admission events at Bapuji College Karwar — browse as a list or month calendar, or explore the archive."
       />
       <PageHero
         eyebrow="Events"

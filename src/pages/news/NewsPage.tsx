@@ -117,7 +117,7 @@ export default function NewsPage() {
     <>
       <Seo
         title="News & Notices"
-        description="Official notices, circulars and examination updates, plus campus news and student achievements from Crestwood College — searchable by category and date."
+        description="Official notices, circulars and examination updates, plus campus news and student achievements from Bapuji College Karwar — searchable by category and date."
       />
       <PageHero
         eyebrow="News & notices"

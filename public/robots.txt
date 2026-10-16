@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /search
 
-Sitemap: https://www.crestwood.edu.in/sitemap.xml
+Sitemap: https://bgvsacc.org/sitemap.xml

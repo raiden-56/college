@@ -23,7 +23,7 @@ const groups: { role: Leader['role']; id: string; eyebrow: string; title: string
     role: 'management',
     id: 'management',
     eyebrow: 'Management',
-    title: 'Crestwood Educational Trust',
+    title: 'Bapuji Grameena Vikasa Samiti',
     description: 'The sponsoring trust sets long-term direction, invests in people and infrastructure and ensures transparent governance.',
     icon: Building,
   },

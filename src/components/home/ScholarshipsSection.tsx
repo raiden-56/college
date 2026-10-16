@@ -15,7 +15,7 @@ export function ScholarshipsSection() {
             id="scholarships-heading"
             eyebrow="Scholarships & financial support"
             title="Talent should never be priced out"
-            description="Merit awards, need-based concessions, government schemes and sports & cultural scholarships help make a Crestwood education affordable."
+            description="Merit awards, need-based concessions, government schemes and sports & cultural scholarships help make a Bapuji College education affordable."
             className="!mb-8"
           />
           <Reveal>

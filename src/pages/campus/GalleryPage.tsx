@@ -13,7 +13,7 @@ import { Reveal } from '@/components/motion/Reveal';
 import { EnquiryCTA } from '@/components/sections/EnquiryCTA';
 import { Lightbox } from '@/components/campus/Lightbox';
 import { galleryCategories, galleryItems, type GalleryItem } from '@/data/gallery';
-import { images } from '@/data/images';
+import { collegePhotos } from '@/data/images';
 import { useUrlFilters } from '@/hooks/useUrlFilters';
 import { cn } from '@/utils/cn';
 
@@ -40,13 +40,13 @@ export default function GalleryPage() {
     <>
       <Seo
         title="Photo Gallery"
-        description="Browse photos of Crestwood College — campus, academics, events, sports, student life and hostels. Filter by category and view full-screen with captions."
+        description="Browse photos of Bapuji College Karwar — campus, academics, events, sports, student life and hostels. Filter by category and view full-screen with captions."
       />
       <PageHero
         eyebrow="Campus"
         title="Photo gallery"
         description="A look at everyday life on campus — classrooms and labs, festivals and convocation, the sports grounds and the hostels students call home."
-        image={images.festival}
+        image={collegePhotos.function}
         actions={
           <ButtonLink to="/campus/virtual-tour" variant="gold" icon={<Compass className="h-4 w-4" aria-hidden />}>
             Take the virtual tour

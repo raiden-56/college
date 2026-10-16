@@ -362,7 +362,7 @@ export const studentProjects: StudentProject[] = [
   { id: 's3', title: 'Bio-based phase-change material for cold storage boxes', team: 'M.Tech thesis (1 student)', mentorSlug: 'dr-rajesh-kulkarni', departmentSlug: 'mechanical-engineering', outcome: 'Conference paper submitted', year: 2025 },
   { id: 's4', title: 'Green synthesis of silver nanoparticles from leaf extracts', team: 'B.Sc. research internship (3 students)', mentorSlug: 'dr-meera-nair', departmentSlug: 'sciences', outcome: 'Poster at a state science symposium', year: 2025 },
   { id: 's5', title: 'UPI adoption among street vendors: a field survey', team: 'BBA live project (5 students)', mentorSlug: 'ms-kavya-pillai', departmentSlug: 'commerce-management', outcome: 'Report shared with a local traders’ association', year: 2025 },
-  { id: 's6', title: 'Mapping legal aid awareness in peri-urban Bengaluru', team: 'BA LL.B. clinic project (4 students)', mentorSlug: 'ms-nisha-thomas', departmentSlug: 'law', outcome: 'Findings used to plan legal literacy camps', year: 2026 },
+  { id: 's6', title: 'Mapping legal aid awareness in rural Uttara Kannada', team: 'BA LL.B. clinic project (4 students)', mentorSlug: 'ms-nisha-thomas', departmentSlug: 'law', outcome: 'Findings used to plan legal literacy camps', year: 2026 },
 ];
 
 export const collaborations: Collaboration[] = [
@@ -386,7 +386,7 @@ export const mous: Mou[] = [
 ];
 
 export const incubation = {
-  name: 'Crestwood Innovation & Incubation Centre',
+  name: 'Bapuji College Innovation & Incubation Centre',
   description:
     'A pre-incubation and incubation space where students, alumni and faculty turn research and ideas into ventures — with mentoring, prototyping access and help with intellectual property.',
   offerings: [

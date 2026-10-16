@@ -26,7 +26,7 @@ export default function HomePage() {
     <>
       <Seo
         title="Home"
-        description="Crestwood College, Bengaluru: UG, PG and doctoral programs in engineering, science, management, law, humanities and education. Admissions 2027–28 open."
+        description="Bapuji College Karwar: UG, PG and doctoral programs in engineering, science, management, law, humanities and education. Admissions 2027–28 open."
         jsonLd={organizationLd()}
       />
       <HomeHero />

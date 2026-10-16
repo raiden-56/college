@@ -29,7 +29,7 @@ export const events: CollegeEvent[] = [
     summary: 'Three days of hackathons, robotics challenges, project expos and tech talks.',
     content: [
       'IGNITE brings together students from colleges across the region for hackathons, robotics challenges, paper presentations and an innovation expo.',
-      'External participants can register online; Crestwood students register through their department coordinators.',
+      'External participants can register online; Bapuji College students register through their department coordinators.',
     ],
     image: images.robotics,
     organizer: 'Student Council & Engineering Departments',
@@ -121,7 +121,7 @@ export const events: CollegeEvent[] = [
   },
   {
     slug: 'literary-festival-2026',
-    title: 'Crestwood Literary Festival 2026',
+    title: 'Bapuji College Literary Festival 2026',
     category: 'Cultural',
     startDate: '2026-02-05T10:00:00+05:30',
     endDate: '2026-02-06T18:00:00+05:30',

@@ -35,7 +35,7 @@ export const faculty: Faculty[] = [
     experienceYears: 19,
     subjects: ['Machine Learning', 'Data Structures', 'Responsible AI'],
     researchInterests: ['Natural language processing', 'Fairness in machine learning', 'Educational data mining'],
-    contact: { email: 'ananya.rao@crestwood.edu.in', cabin: 'A-301' },
+    contact: { email: 'ananya.rao@bgvsacc.org', cabin: 'A-301' },
     featured: true,
   }),
   make({
@@ -50,7 +50,7 @@ export const faculty: Faculty[] = [
     experienceYears: 12,
     subjects: ['Computer Networks', 'Cryptography', 'Secure Software Engineering'],
     researchInterests: ['Network intrusion detection', 'Privacy-preserving computation'],
-    contact: { email: 'karthik.reddy@crestwood.edu.in', cabin: 'A-312' },
+    contact: { email: 'karthik.reddy@bgvsacc.org', cabin: 'A-312' },
     featured: true,
   }),
   make({
@@ -78,7 +78,7 @@ export const faculty: Faculty[] = [
     experienceYears: 21,
     subjects: ['Digital VLSI Design', 'Analog Circuits', 'Microelectronics'],
     researchInterests: ['Low-power VLSI', 'Hardware security'],
-    contact: { email: 'vikram.iyer@crestwood.edu.in', cabin: 'B-201' },
+    contact: { email: 'vikram.iyer@bgvsacc.org', cabin: 'B-201' },
     featured: true,
   }),
   make({
@@ -106,7 +106,7 @@ export const faculty: Faculty[] = [
     experienceYears: 24,
     subjects: ['Thermodynamics', 'Heat Transfer', 'Electric Vehicle Technology'],
     researchInterests: ['Thermal energy storage', 'EV battery thermal management'],
-    contact: { email: 'rajesh.kulkarni@crestwood.edu.in', cabin: 'C-101' },
+    contact: { email: 'rajesh.kulkarni@bgvsacc.org', cabin: 'C-101' },
   }),
   make({
     slug: 'mr-naveen-gowda',
@@ -133,7 +133,7 @@ export const faculty: Faculty[] = [
     experienceYears: 20,
     subjects: ['Organic Chemistry', 'Green Chemistry', 'Research Methodology'],
     researchInterests: ['Heterogeneous catalysis', 'Sustainable synthesis'],
-    contact: { email: 'meera.nair@crestwood.edu.in', cabin: 'S-110' },
+    contact: { email: 'meera.nair@bgvsacc.org', cabin: 'S-110' },
     featured: true,
   }),
   make({
@@ -161,7 +161,7 @@ export const faculty: Faculty[] = [
     experienceYears: 22,
     subjects: ['Corporate Finance', 'Financial Markets', 'Business Strategy'],
     researchInterests: ['Behavioural finance', 'Financial inclusion'],
-    contact: { email: 'sanjay.mehta@crestwood.edu.in', cabin: 'M-201' },
+    contact: { email: 'sanjay.mehta@bgvsacc.org', cabin: 'M-201' },
     featured: true,
   }),
   make({
@@ -189,7 +189,7 @@ export const faculty: Faculty[] = [
     experienceYears: 18,
     subjects: ['Postcolonial Literature', 'Literary Theory', 'Academic Writing'],
     researchInterests: ['Translation studies', 'South Asian literature'],
-    contact: { email: 'farah.khan@crestwood.edu.in', cabin: 'H-105' },
+    contact: { email: 'farah.khan@bgvsacc.org', cabin: 'H-105' },
   }),
   make({
     slug: 'dr-rohan-das',
@@ -216,7 +216,7 @@ export const faculty: Faculty[] = [
     experienceYears: 20,
     subjects: ['Constitutional Law', 'Administrative Law', 'Jurisprudence'],
     researchInterests: ['Fundamental rights', 'Judicial review'],
-    contact: { email: 'arjun.menon@crestwood.edu.in', cabin: 'L-001' },
+    contact: { email: 'arjun.menon@bgvsacc.org', cabin: 'L-001' },
     featured: true,
   }),
   make({
@@ -244,7 +244,7 @@ export const faculty: Faculty[] = [
     experienceYears: 23,
     subjects: ['Inclusive Education', 'Educational Psychology', 'Pedagogy of Science'],
     researchInterests: ['Inclusive pedagogy', 'Teacher professional development'],
-    contact: { email: 'lakshmi.s@crestwood.edu.in', cabin: 'E-102' },
+    contact: { email: 'lakshmi.s@bgvsacc.org', cabin: 'E-102' },
   }),
 ];
 

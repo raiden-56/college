@@ -87,7 +87,7 @@ export default function ResearchPage() {
     <>
       <Seo
         title="Research & Innovation"
-        description="Research centres, faculty publications, funded projects, patents, student research, collaborations, MoUs and incubation at Crestwood College."
+        description="Research centres, faculty publications, funded projects, patents, student research, collaborations, MoUs and incubation at Bapuji College Karwar."
       />
       <PageHero
         eyebrow="Research & innovation"

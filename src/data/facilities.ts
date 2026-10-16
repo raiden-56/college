@@ -11,7 +11,7 @@ export const facilities: Facility[] = [
     details: ['Print books and journals across all disciplines', 'Remote access to e-journals and e-books (subscriptions to be configured)', 'Institutional repository of theses and publications', 'Plagiarism-check and reference-management support'],
     image: images.library,
     timings: 'Mon–Sat, 8:00 AM – 8:00 PM',
-    contact: 'librarian@crestwood.edu.in',
+    contact: 'librarian@bgvsacc.org',
   },
   {
     slug: 'laboratories',
@@ -40,7 +40,7 @@ export const facilities: Facility[] = [
     summary: 'An air-conditioned auditorium and seminar halls for conferences, performances and convocation.',
     details: ['Auditorium with professional sound and lighting', 'Seminar halls with video-conferencing', 'Open-air theatre for cultural events'],
     image: images.auditorium,
-    contact: 'events@crestwood.edu.in',
+    contact: 'events@bgvsacc.org',
   },
   {
     slug: 'hostels',
@@ -50,7 +50,7 @@ export const facilities: Facility[] = [
     summary: 'Separate, secure hostels for men and women with mess, Wi-Fi, study rooms and wardens on site.',
     details: ['Twin and triple sharing rooms', 'Hygienic mess with vegetarian and non-vegetarian menus', '24×7 security and CCTV', 'Resident wardens and visiting medical support'],
     image: images.hostel,
-    contact: 'hostel@crestwood.edu.in',
+    contact: 'hostel@bgvsacc.org',
   },
   {
     slug: 'cafeteria',
@@ -70,7 +70,7 @@ export const facilities: Facility[] = [
     summary: 'Football and cricket grounds, athletics track, courts and an indoor games hall.',
     details: ['Athletics track and multipurpose ground', 'Basketball, volleyball and tennis courts', 'Indoor badminton, table tennis and chess', 'Coaching for college teams'],
     image: images.sportsTrack,
-    contact: 'sports@crestwood.edu.in',
+    contact: 'sports@bgvsacc.org',
   },
   {
     slug: 'gym',
@@ -90,7 +90,7 @@ export const facilities: Facility[] = [
     summary: 'GPS-enabled college buses on major city routes with trained drivers and attendants.',
     details: ['Multiple routes across the city (route list from transport office)', 'GPS tracking and emergency contacts', 'Route-wise charges listed on the Fees page'],
     image: images.bus,
-    contact: 'transport@crestwood.edu.in',
+    contact: 'transport@bgvsacc.org',
   },
   {
     slug: 'wifi',
@@ -100,7 +100,7 @@ export const facilities: Facility[] = [
     summary: 'High-speed, secure Wi-Fi across academic blocks, library and hostels.',
     details: ['Single sign-on for students and staff', 'Content filtering as per IT policy', 'IT helpdesk support'],
     image: images.studentsLaptops,
-    contact: 'it.helpdesk@crestwood.edu.in',
+    contact: 'it.helpdesk@bgvsacc.org',
   },
   {
     slug: 'health-counselling',
@@ -110,7 +110,7 @@ export const facilities: Facility[] = [
     summary: 'An on-campus health centre with a nurse, visiting doctor and confidential counselling services.',
     details: ['First aid and visiting physician', 'Tie-up with nearby hospital for emergencies (to be configured)', 'Confidential professional counselling', 'Mental health awareness programs'],
     image: images.health,
-    contact: 'wellness@crestwood.edu.in',
+    contact: 'wellness@bgvsacc.org',
   },
   {
     slug: 'accessibility',
@@ -120,7 +120,7 @@ export const facilities: Facility[] = [
     summary: 'Ramps, lifts, accessible washrooms and support for students with disabilities.',
     details: ['Ramps and lifts in all major buildings', 'Accessible washrooms', 'Scribe and extra-time support for examinations as per norms', 'Equal Opportunity Cell'],
     image: images.campusAerial,
-    contact: 'eoc@crestwood.edu.in',
+    contact: 'eoc@bgvsacc.org',
   },
   {
     slug: 'innovation-incubation',
@@ -130,7 +130,7 @@ export const facilities: Facility[] = [
     summary: 'Maker space, prototyping tools and mentoring for student start-ups.',
     details: ['3D printers, electronics benches and tools', 'Start-up mentoring and pitch events', 'Support for IP filing'],
     image: images.robotics,
-    contact: 'incubation@crestwood.edu.in',
+    contact: 'incubation@bgvsacc.org',
   },
   {
     slug: 'security-parking',
@@ -149,7 +149,7 @@ export const facilities: Facility[] = [
     summary: 'Dedicated spaces for music, dance, drama, photography, debate and technical clubs.',
     details: ['30+ student clubs (demo figure)', 'Music and dance rehearsal rooms', 'NSS, NCC and community service units'],
     image: images.concert,
-    contact: 'studentaffairs@crestwood.edu.in',
+    contact: 'studentaffairs@bgvsacc.org',
   },
 ];
 

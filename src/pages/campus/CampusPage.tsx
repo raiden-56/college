@@ -31,7 +31,7 @@ export default function CampusPage() {
     <>
       <Seo
         title="Campus & Facilities"
-        description="Explore Crestwood College’s campus: library, labs, smart classrooms, hostels, sports, health care, transport, Wi-Fi and accessibility facilities."
+        description="Explore Bapuji College Karwar’s campus: library, labs, smart classrooms, hostels, sports, health care, transport, Wi-Fi and accessibility facilities."
       />
       <PageHero
         eyebrow="Campus life"

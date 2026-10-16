@@ -104,7 +104,7 @@ export default function PlacementsPage() {
     <>
       <Seo
         title="Training & Placements"
-        description="Crestwood College Training & Placement Cell: placement process, internships, interview training, recruiters, year-wise placement data and methodology."
+        description="Bapuji College Karwar Training & Placement Cell: placement process, internships, interview training, recruiters, year-wise placement data and methodology."
       />
       <PageHero
         eyebrow="Training & Placement Cell"

@@ -25,7 +25,7 @@ export function WhyChooseUs() {
         <div>
           <SectionHeading
             id="why-heading"
-            eyebrow="Why Crestwood"
+            eyebrow="Why Bapuji College"
             title="Four reasons families choose us"
             description="Great teaching, the right facilities, real-world exposure and care for every learner — working together."
           />

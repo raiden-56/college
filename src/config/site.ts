@@ -9,17 +9,19 @@ const bool = (value: string | undefined, fallback: boolean) =>
   value === undefined || value === '' ? fallback : value === 'true';
 
 export const siteConfig = {
-  name: env.VITE_COLLEGE_NAME || 'Crestwood College of Arts, Science & Technology',
-  shortName: 'Crestwood College',
+  name: env.VITE_COLLEGE_NAME || 'Bapuji College Karwar',
+  shortName: 'Bapuji College Karwar',
   tagline: 'Learn deeply. Lead responsibly.',
   established: 1987,
-  url: (env.VITE_SITE_URL || 'https://www.crestwood.edu.in').replace(/\/$/, ''),
+  url: (env.VITE_SITE_URL || 'https://bgvsacc.org').replace(/\/$/, ''),
   demoMode: bool(env.VITE_DEMO_MODE, true),
   apiBaseUrl: env.VITE_API_BASE_URL || '',
   whatsappNumber: env.VITE_WHATSAPP_NUMBER || '',
-  mapEmbedUrl:
-    env.VITE_MAP_EMBED_URL ||
-    'https://www.openstreetmap.org/export/embed.html?bbox=77.55%2C12.90%2C77.65%2C12.99&layer=mapnik',
+  mapEmbedUrl: env.VITE_MAP_EMBED_URL || 'https://maps.google.com/maps?q=Bapuji%20Grameena%20Vikasa%20Samiti%27s%20Arts%20and%20Commerce%20College%2C%20Sadashivgad%2C%20Karwar&t=m&z=16&output=embed',
+  /** Exact campus location (Google Maps listing), used for "Open in maps" / directions links. */
+  geo: { latitude: 14.8580472, longitude: 74.1305092 },
+  /** The college's registered name — what map services know it by. */
+  mapsQuery: "Bapuji Grameena Vikasa Samiti's Arts and Commerce College, Sadashivgad, Karwar",
   portals: {
     erp: env.VITE_ERP_URL || '',
     lms: env.VITE_LMS_URL || '',
@@ -27,20 +29,20 @@ export const siteConfig = {
     application: env.VITE_APPLICATION_PORTAL_URL || '',
   },
   address: {
-    line1: '42 Knowledge Park Road, Electronic City Phase II',
-    city: 'Bengaluru',
+    line1: 'NH 66, At & Post Sadashivgad, Uttara Kannada',
+    city: 'Karwar',
     state: 'Karnataka',
-    postalCode: '560100',
+    postalCode: '581352',
     country: 'India',
   },
   contacts: {
-    main: { phone: '+91 80 4000 1000', email: 'info@crestwood.edu.in' },
-    admissions: { phone: '+91 80 4000 1100', email: 'admissions@crestwood.edu.in', hours: 'Mon–Sat, 9:00 AM – 5:30 PM' },
-    placements: { phone: '+91 80 4000 1200', email: 'placements@crestwood.edu.in' },
-    examinations: { phone: '+91 80 4000 1300', email: 'exams@crestwood.edu.in' },
-    accounts: { phone: '+91 80 4000 1400', email: 'accounts@crestwood.edu.in' },
-    alumni: { phone: '+91 80 4000 1500', email: 'alumni@crestwood.edu.in' },
-    grievance: { phone: '+91 80 4000 1600', email: 'grievance@crestwood.edu.in' },
+    main: { phone: '+91 8382 265813', email: 'bgvsacc@gmail.com' },
+    admissions: { phone: '+91 8382 265813', email: 'bgvsacc@gmail.com', hours: 'Mon–Sat, 9:00 AM – 5:30 PM' },
+    placements: { phone: '+91 8382 265813', email: 'bgvsacc@gmail.com' },
+    examinations: { phone: '+91 8382 265813', email: 'bgvsacc@gmail.com' },
+    accounts: { phone: '+91 8382 265813', email: 'bgvsacc@gmail.com' },
+    alumni: { phone: '+91 8382 265813', email: 'bgvsacc@gmail.com' },
+    grievance: { phone: '+91 8382 265813', email: 'bgvsacc@gmail.com' },
     antiRaggingHelpline: '1800-180-5522',
   },
   officeHours: [

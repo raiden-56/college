@@ -22,7 +22,7 @@ export function TestimonialsBand() {
             id="testimonials-heading"
             light
             eyebrow="In their words"
-            title="Students, alumni and parents on life at Crestwood"
+            title="Students, alumni and parents on life at Bapuji College"
             description="Honest reflections from people who know the college best — shared with their written consent."
             className="!mb-8"
           />

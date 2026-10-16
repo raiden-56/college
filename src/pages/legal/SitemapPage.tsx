@@ -47,7 +47,7 @@ export default function SitemapPage() {
 
   return (
     <>
-      <Seo title="Sitemap" description="A complete list of pages on the Crestwood College website: admissions, programs, departments, campus life, news, events and policies." />
+      <Seo title="Sitemap" description="A complete list of pages on the Bapuji College Karwar website: admissions, programs, departments, campus life, news, events and policies." />
       <PageHero eyebrow="Legal" title="Sitemap" description="Every section of the website on one page — useful if you prefer browsing a list to using the menus or search." />
 
       <Section labelledBy="sitemap-main-heading">

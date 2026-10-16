@@ -19,7 +19,7 @@ export function AlumniStories() {
       <SectionHeading
         id="alumni-heading"
         eyebrow="Alumni success stories"
-        title="Where a Crestwood education can lead"
+        title="Where a Bapuji College education can lead"
         description={
           <>
             Engineers, founders, advocates, scientists and public servants — our alumni keep coming back to mentor the next generation.

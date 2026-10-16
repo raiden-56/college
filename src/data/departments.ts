@@ -55,7 +55,7 @@ export const departments: Department[] = [
       { title: 'National Conference on Intelligent Systems', date: '2027-02-20', type: 'Conference' },
     ],
     resources: resources('cse'),
-    contact: { email: 'hod.cse@crestwood.edu.in', phone: '+91 80 4000 2100', location: 'Block A, 3rd Floor' },
+    contact: { email: 'hod.cse@bgvsacc.org', phone: '+91 80 4000 2100', location: 'Block A, 3rd Floor' },
     image: images.coding,
   },
   {
@@ -92,7 +92,7 @@ export const departments: Department[] = [
       { title: 'Seminar on Semiconductor Careers', date: '2027-01-16', type: 'Seminar' },
     ],
     resources: resources('ece'),
-    contact: { email: 'hod.ece@crestwood.edu.in', phone: '+91 80 4000 2200', location: 'Block B, 2nd Floor' },
+    contact: { email: 'hod.ece@bgvsacc.org', phone: '+91 80 4000 2200', location: 'Block B, 2nd Floor' },
     image: images.circuit,
   },
   {
@@ -129,7 +129,7 @@ export const departments: Department[] = [
       { title: 'Guest Lecture: Lean Manufacturing', date: '2027-01-22', type: 'Guest Lecture' },
     ],
     resources: resources('mech'),
-    contact: { email: 'hod.mech@crestwood.edu.in', phone: '+91 80 4000 2300', location: 'Block C, Ground Floor' },
+    contact: { email: 'hod.mech@bgvsacc.org', phone: '+91 80 4000 2300', location: 'Block C, Ground Floor' },
     image: images.engineeringLab,
   },
   {
@@ -166,7 +166,7 @@ export const departments: Department[] = [
       { title: 'Workshop on Laboratory Safety', date: '2026-11-07', type: 'Workshop' },
     ],
     resources: resources('sci'),
-    contact: { email: 'hod.science@crestwood.edu.in', phone: '+91 80 4000 2400', location: 'Science Block, 1st Floor' },
+    contact: { email: 'hod.science@bgvsacc.org', phone: '+91 80 4000 2400', location: 'Science Block, 1st Floor' },
     image: images.scienceLab,
   },
   {
@@ -202,7 +202,7 @@ export const departments: Department[] = [
       { title: 'Design Thinking for Startups', date: '2026-11-28', type: 'Workshop' },
     ],
     resources: resources('com'),
-    contact: { email: 'dean.commerce@crestwood.edu.in', phone: '+91 80 4000 2500', location: 'Management Block, 2nd Floor' },
+    contact: { email: 'dean.commerce@bgvsacc.org', phone: '+91 80 4000 2500', location: 'Management Block, 2nd Floor' },
     image: images.business,
   },
   {
@@ -235,11 +235,11 @@ export const departments: Department[] = [
     collaborations: ['Community literacy partnerships', 'Student exchange interest network (to be configured)'],
     achievements: ['Annual literary festival', 'Student-run magazine and podcast'],
     events: [
-      { title: 'Crestwood Literary Festival', date: '2027-01-29', type: 'Conference' },
+      { title: 'Bapuji College Literary Festival', date: '2027-01-29', type: 'Conference' },
       { title: 'Workshop: Academic Writing', date: '2026-11-19', type: 'Workshop' },
     ],
     resources: resources('hum'),
-    contact: { email: 'hod.humanities@crestwood.edu.in', phone: '+91 80 4000 2600', location: 'Arts Block, 1st Floor' },
+    contact: { email: 'hod.humanities@bgvsacc.org', phone: '+91 80 4000 2600', location: 'Arts Block, 1st Floor' },
     image: images.humanities,
   },
   {
@@ -275,7 +275,7 @@ export const departments: Department[] = [
       { title: 'Seminar on Data Protection Law', date: '2027-01-09', type: 'Seminar' },
     ],
     resources: resources('law'),
-    contact: { email: 'director.law@crestwood.edu.in', phone: '+91 80 4000 2700', location: 'Law School Building' },
+    contact: { email: 'director.law@bgvsacc.org', phone: '+91 80 4000 2700', location: 'Law School Building' },
     image: images.law,
   },
   {
@@ -309,7 +309,7 @@ export const departments: Department[] = [
     achievements: ['Community teaching programs', 'Teacher development workshops for local schools'],
     events: [{ title: 'Workshop on Inclusive Pedagogy', date: '2026-12-05', type: 'Workshop' }],
     resources: resources('edu'),
-    contact: { email: 'hod.education@crestwood.edu.in', phone: '+91 80 4000 2800', location: 'Education Block' },
+    contact: { email: 'hod.education@bgvsacc.org', phone: '+91 80 4000 2800', location: 'Education Block' },
     image: images.education,
   },
 ];

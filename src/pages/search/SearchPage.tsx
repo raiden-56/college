@@ -149,7 +149,7 @@ export default function SearchPage() {
     <>
       <Seo
         title={trimmed ? `Search: ${trimmed}` : 'Search'}
-        description="Search programs, departments, faculty, news, events, downloads and FAQs across the Crestwood College website."
+        description="Search programs, departments, faculty, news, events, downloads and FAQs across the Bapuji College Karwar website."
         noindex
       />
       <PageHero eyebrow="Search" title="Search the website" description="Find programs, departments, faculty, notices, events, documents and answers to common questions.">
