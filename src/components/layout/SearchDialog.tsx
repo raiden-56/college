@@ -106,7 +106,7 @@ export function SearchDialog({ open, onClose }: SearchDialogProps) {
                   setActive(0);
                 }}
                 onKeyDown={onKeyDown}
-                className="h-16 flex-1 bg-transparent text-base text-navy-950 placeholder:text-slate-400 focus:outline-none"
+                className="h-16 flex-1 bg-transparent text-base text-navy-950 placeholder:text-slate-400 focus:outline-none focus-visible:ring-0 focus-visible:ring-offset-0"
               />
               <button type="button" onClick={close} className="grid h-9 w-9 place-items-center rounded-full bg-navy-50 text-navy-700 hover:bg-navy-100" aria-label="Close search">
                 <X className="h-4 w-4" aria-hidden />

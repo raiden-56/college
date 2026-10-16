@@ -35,7 +35,7 @@ export function InPageNav({ items, label, className, action }: InPageNavProps) {
   return (
     <nav aria-label={label} className={cn('sticky top-[4.25rem] z-30 border-b border-navy-100 bg-white/90 shadow-[0_6px_20px_-14px_rgba(15,29,64,0.35)] backdrop-blur-xl', className)}>
       <div className="container flex items-center gap-4">
-        <ul ref={listRef} className="scrollbar-none mask-fade-x -mx-2 flex flex-1 gap-1 overflow-x-auto px-2 py-2">
+        <ul ref={listRef} className="scrollbar-none mask-fade-x lg:[mask-image:none] -mx-2 flex flex-1 gap-1 overflow-x-auto px-2 py-2">
           {items.map((item) => {
             const isActive = item.id === active;
             return (
@@ -45,7 +45,7 @@ export function InPageNav({ items, label, className, action }: InPageNavProps) {
                   aria-current={isActive ? 'location' : undefined}
                   className={cn(
                     'relative inline-flex items-center whitespace-nowrap rounded-full px-3.5 py-2 text-sm font-semibold transition-colors',
-                    isActive ? 'bg-navy-900 text-white shadow-card' : 'text-ink-muted hover:bg-navy-50 hover:text-navy-900',
+                    isActive ? 'bg-navy-900 text-white' : 'text-ink-muted hover:bg-navy-50 hover:text-navy-900',
                   )}
                 >
                   {item.label}
