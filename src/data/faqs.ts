@@ -1,0 +1,20 @@
+import type { FAQ } from '@/types';
+
+export const faqs: FAQ[] = [
+  { category: 'Admissions', question: 'When do admissions open?', answer: 'Admissions for most programs open in October–November for the following academic year, with rolling counselling through June. Exact dates for each cycle are published on the Admissions page and in official notices.' },
+  { category: 'Admissions', question: 'How do I apply?', answer: 'Start by submitting an enquiry on the Apply / Enquire page. Our admissions team will guide you through eligibility, documents and counselling. Where an online application portal is configured, you will receive a link to complete your application.' },
+  { category: 'Admissions', question: 'Which documents are required for admission?', answer: 'Typically: 10th and 12th marks cards, transfer certificate, migration certificate (if applicable), entrance exam score card, category / income certificates (if claiming reservation or concession), Aadhaar or other ID, and passport-size photographs. See the documents checklist on the Admissions page.' },
+  { category: 'Admissions', question: 'Is there a management or NRI quota?', answer: 'Seat categories and quotas are governed by university and state regulations. Please contact the admissions office for the current approved seat matrix.' },
+  { category: 'Fees', question: 'Can fees be paid in instalments?', answer: 'Annual fees may be paid in two instalments on request, subject to approval by the accounts office. Please see the payment instructions on the Fee Structure page.' },
+  { category: 'Fees', question: 'What is the refund policy if I withdraw?', answer: 'Refunds follow the regulator’s refund policy in force for the academic year. A summary is available on the Fee Structure page; the official policy document prevails.' },
+  { category: 'Fees', question: 'Are scholarships available?', answer: 'Yes. Merit scholarships, need-based concessions, sports and cultural scholarships and government scholarships are available subject to eligibility.' },
+  { category: 'Campus', question: 'Is hostel accommodation available?', answer: 'Separate hostels for men and women are available on campus with twin and triple sharing rooms, mess facilities, Wi-Fi and 24×7 security. Allotment is subject to availability.' },
+  { category: 'Campus', question: 'Does the college provide transport?', answer: 'College buses operate on multiple city routes. Route maps and charges are available from the transport office and on the Campus page.' },
+  { category: 'Campus', question: 'Can we visit the campus before applying?', answer: 'Yes — you can request a campus visit from the Contact page or attend a scheduled Open Day. Visits are available Monday to Saturday.' },
+  { category: 'Academics', question: 'Do you follow a credit-based system?', answer: 'Programs follow a choice-based credit system with continuous internal assessment and end-semester examinations, as per the regulations of the affiliating university.' },
+  { category: 'Academics', question: 'Are internships part of the curriculum?', answer: 'Most programs include mandatory internships or field projects. The Training & Placement Cell and departments help students find suitable internships.' },
+  { category: 'Placements', question: 'Does the college provide placement assistance?', answer: 'Yes. The Training & Placement Cell offers aptitude and soft-skills training, resume reviews, mock interviews and campus recruitment drives. Verified outcomes are published on the Placements page.' },
+  { category: 'General', question: 'How can I raise a grievance?', answer: 'Students, parents and staff can submit grievances confidentially through the Feedback page or contact the Grievance Redressal Cell. Anti-ragging and ICC contacts are listed in the Student Corner.' },
+];
+
+export const homeFaqs = faqs.filter((f) => ['When do admissions open?', 'How do I apply?', 'Is hostel accommodation available?', 'Are scholarships available?', 'Can we visit the campus before applying?', 'Does the college provide placement assistance?'].includes(f.question));

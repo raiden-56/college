@@ -1,0 +1,86 @@
+import type { Testimonial } from '@/types';
+import { portraits } from './images';
+
+/**
+ * DEMO TESTIMONIALS — fictional. Publish only testimonials with recorded written consent
+ * (`consentRecorded: true`) after moderation.
+ */
+export const testimonials: Testimonial[] = [
+  {
+    id: 't1',
+    name: 'Aditi Kulkarni',
+    role: 'Student',
+    context: 'B.Tech CSE, 3rd year',
+    quote: 'The faculty actually know us by name. I joined the AI lab in my second year and I’m now co-authoring a paper with my mentor — that kind of access is rare.',
+    rating: 5,
+    photo: portraits.f4,
+    departmentSlug: 'computer-science-engineering',
+    consentRecorded: true,
+  },
+  {
+    id: 't2',
+    name: 'Rahul Verma',
+    role: 'Alumni',
+    context: 'MBA, Class of 2021',
+    quote: 'Live consulting projects with real companies taught me more than any textbook. The placement cell prepared me thoroughly for interviews.',
+    rating: 5,
+    photo: portraits.m4,
+    departmentSlug: 'commerce-management',
+    consentRecorded: true,
+  },
+  {
+    id: 't3',
+    name: 'Mrs. Sunitha Raman',
+    role: 'Parent',
+    context: 'Parent of a B.Sc Biotechnology student',
+    quote: 'As a parent, I value how responsive the college is. The mentor system and regular updates gave us real peace of mind, especially in the first year.',
+    rating: 5,
+    photo: portraits.f2,
+    consentRecorded: true,
+  },
+  {
+    id: 't4',
+    name: 'Mohammed Irfan',
+    role: 'Student',
+    context: 'BA LLB, 4th year',
+    quote: 'Moot court practice and the legal aid clinic gave me courtroom confidence early. The library and faculty support for research are excellent.',
+    rating: 4,
+    photo: portraits.m3,
+    departmentSlug: 'law',
+    consentRecorded: true,
+  },
+  {
+    id: 't5',
+    name: 'Sneha Pillai',
+    role: 'Alumni',
+    context: 'B.Tech ECE, Class of 2019',
+    quote: 'The embedded lab was my second home. The projects I built there became the core of my portfolio and helped me start my career in semiconductor design.',
+    rating: 5,
+    photo: portraits.f6,
+    departmentSlug: 'electronics-communication',
+    videoUrl: '',
+    videoTranscript: 'Video testimonial transcript placeholder — add a transcript for every published video.',
+    consentRecorded: true,
+  },
+  {
+    id: 't6',
+    name: 'Mr. Prakash Iyer',
+    role: 'Parent',
+    context: 'Parent of a BBA student',
+    quote: 'The campus is safe and well-managed, and the transport service is reliable. We have seen our son grow in confidence through clubs and events.',
+    rating: 4,
+    photo: portraits.m6,
+    consentRecorded: true,
+  },
+  {
+    id: 't7',
+    name: 'Ritika Sen',
+    role: 'Student',
+    context: 'B.A. English, Economics & Psychology, 2nd year',
+    quote: 'Small classes, lots of discussion and teachers who push you to write better every week. The literary festival is the highlight of my year.',
+    rating: 5,
+    photo: portraits.f7,
+    departmentSlug: 'humanities',
+    consentRecorded: true,
+  },
+];
